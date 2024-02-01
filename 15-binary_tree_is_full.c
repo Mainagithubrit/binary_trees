@@ -25,11 +25,11 @@ int is_full_recursive(const binary_tree_t *tree)
  *
  * Return: If tree is NULL or is not full - 0.
  *         Otherwise - 1.
- */i
+ */
 
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	if (tree == NULl)
+	if (tree == NULL)
 		return (0);
 	return (is_full_recursive(tree));
 }
